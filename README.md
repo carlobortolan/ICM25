@@ -45,33 +45,43 @@ volatility of a portfolio with 40% invested in S&P500 and 60% invested in Nikkei
 ## Problems and questions 11-20
 11. What is roughly the long-term equity risk premium in accordance with the study of Dimson, Marsh and
 Staunton?
-    > _a_
+    > _Risk and return on capital markets -> 3.8% over the period 1900 to 2010_
 12. What is the “typical” correlation between stocks and bonds measured over long periods of time
 (approximate value)?
-    > _a_
+    > _coefficient of 0.24_
 13. The correlation between stock and bond returns fluctuates over time: What is the fundamental
 explanation of a negative correlation? What is the fundamental explanation of a positive correlation?
-    > _a_
+    > _Negative correlation for period of 0 interest rate / low inflation; positive correlation for high inflation_
 14. Explain the typical relationship between the volatilities on two stock markets and the correlation between
 the markets.
-    > _a_
+    > - _If the risk in a market increases, the correlation with other markets also increases_
+    > - _Volatility is higher when markets go down_
+    > - _Higher correlations are detected when equity markets go down simultaneously_
 15. Volatilities and correlations between markets vary over time: Briefly explain the stylized empirical facts
 and the implications for investors.
-    > _a_
+    > - _Optimal portfolios are unstable because market parameters are time-varying_
+    > - _Bad news lead to higher volatility than good news_
+    > - _International diversification benefits seem to vanish in exactly those market environments when they are most strongly needed (down-down > up-up)_
+    > - _Widely used portfolio risk measures such as VaR, or shortfall, are affected by asymmetric parameters_
 16. Explain why returns on international investments are affected by exchange rate movements.
-    > _a_
+    > - _Directly, because they have to be translated from foreign to domestic currency units (numeraire currency units)_
+    > - _Indirectly, because asset prices react to shifts in exchange rates_
 17. On 1 June 2018 the closing price of an Apple stock is 190.24 USD and 1 EUR costs 1.17 USD; on 1
 June 2020 the closing price of an Apple stock is 321.85 USD and 1 EUR costs 1.11 USD. Calculate the
 stock return over that 2-year period in USD and in EUR.
-    > _a_
+    > - _Return in % EUR:_ `(P1[USD] / EUR1[USD]) / (P0[USD] / EUR0[USD]) = ($321.85 / 1.11$/€) / ($190.24 * 1.17$/€) = 1.7833 = 178.33% // EUR[USD] := how much 1 EUR costs in USD`
+    > - _Return in % USD:_ `P1[USD] / P0[USD] = $321.85 / $190.24 = 1.6929 = 169.29%`
 18. When does CPP hold?
-    > _a_
+    > _CPP := Commodity price parity holds in absence of trade barriers for homogeneous goods (e.g., gold, precious metals)_
 19. Write down the formula for PPP in relative terms.
-    > _a_
+    > _PPP := Purchasing power parity ("Average price levels are the same in two countries at any time")_
+    > - "Spot exchange rates between currencies adjust to inflation differentials between the respective countries"
+    > - `= SUM(weightDomestic(t) * PriceDomestic(t)) = SpotExchangeRate(t) * SUM(weightForeign(t) * PriceForeign(t))`
 20. Today 0.90 EUR buy 1 USD. Economists forecast 1.5% inflation in the Eurozone and 3.0% inflation in
 the US over the next year. Predict the EUR/USD exchange rate at the end of next year assuming that
 PPP holds.
-    > _a_
+    > - `r0[EUR/USD] = Foreign / Domestic = 1 / 0.90 = 1.1111`
+    > - `r1[EUR/USD] = (Foreign * (1+inflationForeign)) / (Domestic * (1+inflationDomestic)) = (1 * 1.03) / (0.90 * 1.015) = 1.1275`
 
 ## Problems and questions 21-30
 21. What is the implication of PPP for the returns on international assets for investors from different
