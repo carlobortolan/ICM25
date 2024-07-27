@@ -254,27 +254,38 @@ factor 4. Calculate the missing value.
 possible to hedge "factor 4 risk" by a portfolio of stock markets?
     > _Yes, as Germany and France have negative exposures while the UK's exposure is positive, hence a combination of weights exist that sets the weighted sensitivity to 0_
 
-## Problems and questions 54-60 [xx min]
+## Problems and questions 54-60 [12 min]
 54. With reference to the table in question 51: Exposure to the four global risk factors is compensated in
 long-term returns. In a cross-sectional analysis the following risk premiums are estimated: 1.5% for
 factor 1, -2.5% for factor 2, 1% for factor 3, and 4% for factor 4. Calculate the expected return for the
 German and the French stock market assuming a risk-free interest rate of 1%.
-    > _a_
+    > `R = rf + SUM(factor exposure * risk premium)`
+    > `R_DE = 0.01 + 0.015 * 0.45 + (-0.025) * (-0.25) + 0.01 * 0.15+ 0.04 * 1.20 = 0.0725 = 7.25%`
+    > `R_FR = 0.01 + 0.015 * 0.40 + (-0.025) * (-0.30) + 0.01 * 0.10+ 0.04 * 0.80 = 0.0565 = 5.65%`
 55. How do the changes in the slope of the term structure of interest rates correspond to market participants’
 business cycle expectations?
-    > _a_
+    > - _Steeper yield curve: expectations of booming economy with higher income => positive outcome (more consumption, bond prices fall)_
+    > - _Flatter yield curve: expectations of deteriorating income_
+    > - _Inverted yield curve: expect regression (bond prices rise)_
 56. Explain the concept of intertemporal consumption smoothing in the context of the yield curve.
-    > _a_
+    > _!TODO_
 57. Name the three explanatory variables in the study of Fama and French (1989, Business Conditions and
 Expected Returns on Stocks and Bonds).
-    > _a_
+    > - _Dividend yield (Proxy for fundamental valuation of the stock market)_
+    > - _Term spread (Proxy for expected business conditions)_
+    > - _Default spread (Proxy for credit risk/current health of the economy)_
 58. How do expected returns on capital markets relate to economic conditions? Explain the general
 message of the study of Fama and French (1989).
-    > _a_
+    > _"Expected returns are lower when economic conditions are strong and higher when conditions are weak" (buy stocks when conditions are weak and sell when conditions are strong)_
 59. What is the economic explanation of a time-varying drift in the random walk model? (Part 5, Slide 20)
-    > _a_
-60. Write down the regression equation of an instrumental forecasting model and explain its components.
-    > _a_
+    > _Lagged information can be used to forecast a part of the drift !TODO_
+61. Write down the regression equation of an instrumental forecasting model and explain its components.
+    > `Rit = wi0 + wi1 * Z1,t-1 + ... + wik * Zk,t-1 + εit`
+    > - `Rit` := _Return on asset i at time t_
+    > - `wi0` := _constant component of the i-th asset_
+    > - `wij` := _Impact of the j-th instrument on the return of the i-th asset_
+    > - `Zj,t-1` := _Level of the j-th instrument at time t-1_
+    > - `εi` := _Ideosyncratic return on asset i_
 
 ## Problems and questions 61-70 [xx min]
 61. The dividend discount model is often the starting point for the search of instrumental variables in a
