@@ -287,32 +287,47 @@ message of the study of Fama and French (1989).
     > - `Zj,t-1` := _Level of the j-th instrument at time t-1_
     > - `εi` := _Ideosyncratic return on asset i_
 
-## Problems and questions 61-70 [xx min]
+## Problems and questions 61-70 [20 min]
 61. The dividend discount model is often the starting point for the search of instrumental variables in a
 forecasting model. Explain why.
-    > _a_
+    > _Ease, not complex and good for determining the "intrinsic value" of a stock_
 62. Briefly explain the idea of conditional asset pricing.
-    > _a_
+    > - _Exploitation of the relationship between business conditions and expected asset returns across the universe of assets_
+    > - _Application of observable information variables (instruments) to model time-variation in global risk premiums in asset pricing relationships_
 63. There is a debate on the reason for predictability in asset returns. Briefly summarize the findings of the
 study of Ferson and Harvey (1991, The variation of economic risk premium) concerning this debate.
-    > _a_
+    > - _Much of the predicted variation of monthly excess returns of common stock portfolios is associated with their sensitivity to economic variables_
+    > - _The risk premium associated with exposure to a stock market index captures the largest component of the predictable variation in stock returns (main source of predictability)_
+    > - _Risk premiums associated with term structure shifts and default spreads are the most important for fixed-income securities_
+    > - _Time-variation in the premium for beta risk is more important than changes in the betas_
+    > - => _predictability of returns is attributable to time-varying, rationally expected returns_
 64. Write down the cross-sectional pricing restriction of a conditional beta pricing model including a linear
 model capturing the time-variation of risk premiums.
-    > _a_
-65. Complete the following statement: “Markets are integrated if…”
-    > _a_
+    > ![image](https://github.com/user-attachments/assets/41f958f6-7f24-4322-9bca-a41777a95fd2)
+65. Complete the following statement: “Markets are integrated if …”
+    > _… assets with the same risk in terms of an exposure to common systematic global risk factors have the same expected retuns irrespective of the market in which they are traded (= same global risk leads to same expected returns)_
 66. What does market integration imply for the sources of risk and their pricing on global capital markets?
-    > _a_
+    > - _Sources of global risk are the same across international markets_
+    > - _Rewards for global risks are the same in each market_
+    > - _If the factor risk premiums were different across markets, an investor could increase the expected return of his portfolio without altering her risk exposure by simply investing in those countries that provide higher rewards for the same risk (case of market segmentation)_
 67. How can market integration be measured? Explain indicative as well as theoretically correct measures of
 market integration.
-    > _a_
+    > - _Indicative measures:_
+    >     - _Correlation between financial market returns_
+    >     - _Volatility spillovers between financial markets_
+    >     - _Factor exposures of financial markets_
+    > - _Theoretically correct measures:_
+    >     - _Global risk premiums_
+    >         - _Significancy (=existence)_
+    >         - _Ability to price (explain) the cross-section of international assets (=pricing error)_
+    >     - _Correlation between expected returns_   
 68. Explain asset allocation and portfolio choice of conservative and aggressive investors in the framework
 of Markowitz (1952). Draw a graph if you like.
-    > _a_
+    > ![image](https://github.com/user-attachments/assets/aee2783d-233d-4d24-80d0-b384c23a5399)
 69. Briefly explain the “asset allocation puzzle”.
-    > _a_
+    > _Advice on portfolio allocation among cash, bonds, and stocks is inconsistent with the mutual-fund separation theorem, which states that all investors should hold the same composition of risky assets. In contrast to the theorem, popular advisors recommend that aggressive investors hold a lower ratio of bonds to stocks than conservative investors_
 70. Explain the difference between strategic and tactical asset allocation.
-    > _a_
+    > ![image](https://github.com/user-attachments/assets/235db8d0-95d9-4af8-8a77-43adcbb02f03)
 
 ## Problems and questions 71-80 [xx min]
 
