@@ -415,23 +415,27 @@ assume that the next dividend will be EUR 4.50, discounted at 8%.
 
 ## Problems and questions 91-99 [xx min]
 91. How are equity returns explained in the Fama-French 3-factor model?
-    > _a_
+    > 1. _Market (CAPM factor)_
+    > 2. _SMB ("small binus big"): Difference between the returns on diversified portfolios of small and big stocks (size factor)_
+    > 3. _HML ("high minus low"): Difference between the returns on diversified portfolios of high and low book-to-market stocks (value factor)_
 92. How are the factors constructed in a multi-factor model?
-    > _a_
+    > _!TODO_    
 93. How is the Fama-French 3-factor model related to the ICAPM of Merton? Refer to the role of state
 variables.
-    > _a_
+    > _Fama-French 3-factor model as extension of CAPM !TODO_
 94. How does Carhart (1997) complement the Fama-French 3 factor model?
-    > _a_
+    > _Adds fourth factor: PR1YR (factor-mimicking portfolio for one-year return momentum)_
 95. In the current academic debate there is talk of a ‘factor zoo’. What is this discussion about?
-    > _a_
+    > _Financial market research over four decades has produced hundreds of factors to explain stock returns; Suspicion that data mining was frequently carried out; How to judge whether a new factor adds explanatory power for asset pricing_
 96. Factor-based equity investments have become very popular. What are the risk premiums of factor-based
 strategies based on?
-    > _a_
+    > _Factor-based equity strategies assume that risk premiums resulting from economic and behavioral causes have a systematic component_
 97. Comment on the stability of returns of factor strategies in equity markets.
-    > _a_
+    > _The performance of factor strategies relative to the global equity market very much depends on the current state of the economy (instrumental variables that reflect the individual phases of the business cycle)_
 98. What is the idea behind ETFs and why do ETF investments have many advantages?
-    > _a_
+    > _ETFs invest in stocks, bonds, and commodities and are popular since they provide a range of important benefits to investors, such as: low costs, liquidity, diversification, tax efficiency, flexibility, accessibility, and transparency_
 99. Explain the two methods how ETFs can replicate an index.
-    > _a_
-
+    > - _Physical replication:_
+    >     - _Full replication: ETC accurately replicates the reference index via the basket of securities held in custody by the ETF provider_
+    >     - _Sampling: Only a selection (a sample) of the securities included in the benchmark index will by included in the portfolio of the ETF provider_ 
+    > - _Synthetic replication: Based on swaps (relevant index is replicated via derivatives; basket of securities is not phisically deposited with the ETF provider -> Counterparty risk exist)_
