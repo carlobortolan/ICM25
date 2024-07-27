@@ -413,7 +413,7 @@ assume that the next dividend will be EUR 4.50, discounted at 8%.
     > - _Intertemporal Capital Asset Pricing Model (ICAPM) of Merton (1973)_
     > - _Arbitrage Pricing Theory (APT) of Ross (1976)_
 
-## Problems and questions 91-99 [xx min]
+## Problems and questions 91-99 [15 min]
 91. How are equity returns explained in the Fama-French 3-factor model?
     > 1. _Market (CAPM factor)_
     > 2. _SMB ("small binus big"): Difference between the returns on diversified portfolios of small and big stocks (size factor)_
