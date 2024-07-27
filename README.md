@@ -3,30 +3,44 @@ International Capital Markets and Investment Practice Exercises
 
 ## Problems and questions 1-10
 1. What is the core statement of Fama’s Efficient Market Hypothesis (EMH)?
-    > _a_
+    > _“A market in which prices always fully reflect available information is called efficient”_
 2. What are the implications of the EMH?
-    > _a_
+    > - _It is impossible to systematically outperform the market by deviating from the market portfolio_
+    > - _Passive investing at minimal cost is the rational approach_
+    > - _Active strategies are expected to underperform the market by trading costs and management fees_
 3. Explain the three forms of market efficiency.
-    > _a_
+    > - _Strong form: fully reflect public and private information_
+    > - _Semi-strong form: fully reflect all public information_
+    > - _Weak-strong form: fully reflect past prices_
 4. What is the idea behind “efficiently inefficient markets” as formulated by Pedersen?
-    > _a_
+    > _Suggests markets are inefficient to an extent that compensates professional investors for their costs and risks_
 5. Briefly explain the concept of adaptive markets.
-    > _a_
+    > _Market dynamics are driven by evolutionary forces and behavioral adaptations (behavioral biases, evolution at the speed of thought, survival as ultimate driving force)_
 6. Name the three major fields for harvesting risk premiums.
-    > _a_
+    > _Asset class premiums, style premiums, strategy premiums_
 7. Name three economically motivated investment styles.
-    > _a_
+    > - _Value inveesting: Buy cheap stocks_
+    > - _Trend-following investing: Buy securities that have been rising_
+    > - _Liquidity provision: Buy securities with high liquidity risk_
+    > - _Carry trading; Buy securities with high carry_
+    > - _Low-risk investing: Buy safe securities with leverage_
+    > - _Quality investing: Buy high-quality securities_
 8. From 1 May 2019 to 1 May 2020 the closing price of Apple stocks (NASDAQ: AAPL) increased from
 210.52 USD to 289.07 USD. Calculate the simple return and the continuously compounded return.
-    > _a_
+    > _Simple return: `(P1-P0)/P0 = 0.373`_
+    > _Cont. comp. return: `ln(P1/P0) = 0.317`_
 9. The yearly volatility of the German stock market index DAX over the period from January 1993 to
 February 2018 is 21.12% (see Case 1). Calculate the monthly volatility and the daily volatility of that
 index.
-    > _a_
+    > - `Yearly volatility = monthly volatility * sqrt(12 months) = 0.2112`
+    > - `Monthly volatility = daily volatility * sqrt(22 days)_ = 0.0610`
+    > - `Daily volatility = 0.0130`
 10. The volatility of the S&P500 (US stock market) is 14.29% and the volatility of the Nikkei (Japanese stock
 market) is 20.03% (see Case 1). The correlation between the two stock markets is 0.56. Calculate the
 volatility of a portfolio with 40% invested in S&P500 and 60% invested in Nikkei.
-    > _a_
+    > `sqrt( σ(A)² * a² + σ(B)² * b² + 2*a*b*σ(A)*σ(B)*Corr(A,B) )`
+    >
+    > `= sqrt( .1429²*.4² + .2003²*.6² + 2*.4*.6*.1429*.2003*.56 ) = 0.1594`
 
 ## Problems and questions 11-20
 11. What is roughly the long-term equity risk premium in accordance with the study of Dimson, Marsh and
