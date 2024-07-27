@@ -228,7 +228,7 @@ systematic influence on asset returns and potentially also the cross-section of 
     > - _Hypothesis 1: "The factor betas are equal to zero for all the markets"_
     > - _Hypothesis 2: "The factor betas are jointly equal across the markets"_
 
-## Problems and questions 51-53 [xx min]
+## Problems and questions 51-53 [12 min]
 51. A factor model including four uncorrelated global factors is applied to analyze the systematic risk of
 selected European stock markets. The results of the analysis are documented in the following table (one
 value is missing).
@@ -241,13 +241,18 @@ value is missing).
     | UK                 | 16.0%      | 0.15                         | -0.15    | 0.12     | missing  |
     | France             | 19.0%      | 0.40                         | -0.30    | 0.10     | 0.80     |
   - What portion of the variance of the German stock market is captured by factor 1?
-    > _a_
-51. With reference to the table in question 51: What portion of the variance of the French stock market is
+    > `((Factor Exposure or Sensitivity)² * (Factor Volatility)² + ...) / (Market aka Country Volatility)² = (0.45² * 0.10²) / 0.25² = 0.0324 = 3.24%`
+52. With reference to the table in question 51: What portion of the variance of the French stock market is
 explained by the model?
-    > _a_
-52. With reference to the table in question 51: 72.25% of the variance of the UK stock market is explained by
+    > `(0.40² * 0.10² + (-0.3)² * 0.15² + 0.10² * 0.18² + 0.80² * 0.16²) / 0.19² = 0.5632  = 56.32%`
+53. With reference to the table in question 51: 72.25% of the variance of the UK stock market is explained by
 factor 4. Calculate the missing value.
-    > _a_
+    > `(x² * 0.16²) / 0.16² = 0.7225 <=> x = ±0.85`
+- Extra 1. With reference to the table in question 51: How do German stocks react to a 10% increase in factor 3?
+    > `RGer := Factor Exposure * Increase = 0.15 * 0.10 = 0.015 = 1.5%`
+- Extra 2. With reference to the table in question 51 and assuming that the missing value is negative: Is it
+possible to hedge "factor 4 risk" by a portfolio of stock markets?
+    > _Yes, as Germany and France have negative exposures while the UK's exposure is positive, hence a combination of weights exist that sets the weighted sensitivity to 0_
 
 ## Problems and questions 54-60 [xx min]
 54. With reference to the table in question 51: Exposure to the four global risk factors is compensated in
