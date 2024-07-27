@@ -350,3 +350,76 @@ Exercise Question: Evaluation of Active Competences of Fund Management:
         Timing and Selection: Analyze the fund's performance in adjusting weights and choosing investments relative to passive benchmarks.
 
 # 7. Summary: Equity investments
+
+Key Concepts:
+1. Market Philosophy:
+
+    Efficient Markets: Markets where prices fully reflect all available information.
+    Efficiently Inefficient Markets: Markets where prices mostly reflect available information but allow for some inefficiencies.
+
+2. Exercise on Stock Valuation:
+
+    Intrinsic Value Calculation:
+        Given Data:
+            Next dividend: EUR 4.50
+            Dividend growth rate: 5%
+            Discount factor: 8%
+        Intrinsic Value Formula:
+        Intrinsic Value=DividendDiscount Factor−Growth Rate=4.500.08−0.05=EUR150
+        Intrinsic Value=Discount Factor−Growth RateDividend​=0.08−0.054.50​=EUR150
+        Market Price Comparison:
+            Current market price: EUR 130
+            The stock is undervalued compared to its intrinsic value.
+        Impact of Lower Growth Rate:
+            New growth rate: 4%
+            New intrinsic value: 4.500.08−0.04=EUR112.500.08−0.044.50​=EUR112.50
+
+3. Value-Oriented Equity Selection:
+
+    Characteristics of Value Stocks:
+        Tend to outperform growth stocks.
+        Indicators: High book/price, dividend/price, earnings/price, cash flow/price, sales/price ratios.
+        Be cautious of value traps (stocks that appear cheap but have deteriorating fundamentals).
+
+4. Warren Buffett's Investment Approach:
+
+    Characteristics of Stocks Purchased:
+        Safe, cheap, high-quality.
+        Study “Buffett’s Alpha” by Frazzini/Kabiller/Pedersen (2013) highlights significant outperformance and low volatility.
+
+5. Modern Equity Strategies:
+
+    Factor-Based Strategies:
+        Based on empirical findings on valuation-relevant factors like size, value, momentum.
+        Reflect exposure to economic or behavioral risks in capital markets.
+        Systematic risk premiums resulting from these factors.
+
+6. Study on Factor-Based Strategies:
+
+    Analysis of Global MSCI Indices:
+        Examines five popular investment styles: Value, Small Cap, Quality, Momentum, Minimum Volatility.
+        Analyzes the equity risk premium and factor risk premia across business cycle phases.
+        Findings suggest factor strategies can diversify economic risk.
+
+7. Exchange Traded Funds (ETFs):
+
+    Investment Fund Traded on Stock Exchanges:
+        Provides benefits such as low costs, liquidity, diversification, tax efficiency.
+        Replication Methods:
+            Physical Replication: Full or sampling of securities.
+            Synthetical Replication: Based on swap transactions.
+    Growth Drivers:
+        Intraday trading, diversification, cost efficiency, asset allocation.
+
+8. Study on ETF Investors:
+
+    Characteristics of Retail Investors:
+        More likely to invest in passive ETFs (P-ETFs) if better educated, with higher financial knowledge, longer investment horizons, and more diversified portfolios.
+        Less likely if aiming for higher target returns or suffering from overconfidence.
+
+9. Popular ETFs:
+
+    Examples of ETFs Tracking the MSCI World:
+        iShares Core (Physical replication, 0.20% TER, 10.65% performance 2015-19)
+        Xtrackers (Synthetic replication, 0.45% TER, 10.60% performance 2015-19)
+        UBS (Physical replication, 0.30% TER, 10.48% performance 2015-19)
