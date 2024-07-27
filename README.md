@@ -160,8 +160,8 @@ world market risk alone_
     > _In equilibrium, expected returns must be consistent with the assets‘ hedging potential in
 each country as well as the investors‘ willingness to pay for hedging in each country_
 38. Write down the asset pricing restriction of Adler and Dumas and explain its components.
-    > `E(riDomestic) = rfDomestic + λWM * Cov(riDomestic,rwmDomestic) + SUM(λπj * Cov(riDomestic, πj)`
-    > - _`ri` := Interest Rate_
+    > `E(RiDomestic) = rfDomestic + λWM * Cov(riDomestic,rwmDomestic) + SUM(λπj * Cov(RiDomestic, πj)`
+    > - _`Ri` := Return on asset in country i_
     > - _`rf` := Risk-free Rate_
     > - _`λWM` := Premium for covariance with the world market (MRP)_
     > - _`πj` := Inflation Rate_
@@ -172,6 +172,9 @@ each country as well as the investors‘ willingness to pay for hedging in each 
 40. Explain the approach of Chen, Roll and Ross (1986) to capture systematic forces that influence asset
 returns.
     > _Idea: Systematic forces that influence returns are those that change discount factors (`rf`) and expected cash flows (`E(C)`) in the dividend discount model `P=E(C)/rf`_
+
+## Problems and questions 41-50 [28 min]
+41. Name three macroeconomic state variables applied in the study of Chen, Roll and Ross (1986).
     > - a. _Industrial production: Monthly growth rate industrial production (MP), Yearly growth rate in industrial production (YP)_
     > - b. _Inflation: Unanticipated inflation (UI), Change in expected inflation (DEI)_
     > - c. _Risk premium: Unanticipated change in the risk premium (Baa and under return minus long-term government bond return) (UPR)_
@@ -179,30 +182,51 @@ returns.
     > - e. _Stock market: Return on the value-weighted NYSE index (VWNY), Return on the equally weighted NYSE index (EWNY)_
     > - f. _Innovation in real per capita consumption_
     > - g. _Oil price_
-
-## Problems and questions 41-50 [xx min]
-41. Name three macroeconomic state variables applied in the study of Chen, Roll and Ross (1986).
-    > _a_
 42. Explain the idea of arbitrage pricing in a large capital market.
-    > _a_
+    > _In a large capital market, it is possible to construct arbitrage portfolios that do not have any systematic or unsystematic risk in the sense of a given factor structure, i.e. the cross-section of available assets is large enough to permit diversification of idiosyncratic risk_
 43. What might disturb arbitrage pricing of assets in the international environment?
-    > _a_
+    > - _Fluctuations of exchange rates add additional risk to an internationally diversified portfolio_
+    > - _Exchange risk hedging might affect arbitrage activities on international capital markets_
 44. Describe the components of the return generating model in the International APT.
-    > _a_
+    > `RiLocal = E(RiLocal) + βi1 * σ1 + ... + βik * σk + εiLocal` // Local == Local currency
+    > - `Ri` := _Return on asset in country i in local currency_
+    > - `E(RiLocal)` := _Expected return on asset i_
+    > - `βij` := _Sensitivity of the return on asset i to changes of global factor j_
+    > - `σj` := _Change of global factor j, j=1,...,k_
+    > - `εi` := _Ideosyncratic return on asset i_
 45. What are the three crucial conditions for arbitrage pricing to hold in an international setting?
-    > _a_
+    > 1. _The risk stemming from exchange rate changes must be diversifiable like any other unsystematic risk (technical)_
+    > 2. _An arbitrage portfolio that is riskless in any given currency must be riskless in any other currency (technical)_
+    > 3. _The factor structure assumed to drive asset returns must be invariant to the choice of a currency (economic)_
 46. What is the assumption on exchange rate changes in the IAPT of Solnik?
-    > _a_
+    > _Exchange rates follow the same k-factor model as do international asset returns_
 47. Write down the pricing restriction of Solnik’s IAPT and explain its components.
-    > _a_
+    > `E(RiDomestic) = RfDomestic + βi1Domestic * λ1Domestic + ... + βikDomestic * λkDomestic`
+    > - `Ri` := _Return on asset in country i in local currency_
+    > - `E(Ri)` := _Expected return on asset i_
+    > - _Time premium (Reward investors expect for investing capital over time)_
+    >     - `Rf` := _Risk-free interest rate_
+    > - _Factor risk premiums (Reward investors expect for taking exposure to global systematic factor risks)_
+    >     - `βij` := _Sensitivity of the return on asset i to changes of global factor j_
+    >     - `λj` := _Risk premium for exposure to global factor j, j=1,...,k_
 48. Multifactor models are used to explore the drivers of asset return volatility. Explain the empirical
 approach.
-    > _a_
+    > - _Starting point_
+    >     - _An unconditional beta pricing model is used to examine the structure of returns and expected returns across 17 stock markets and 8 bond markets._
+    > - _Set up the model_
+    >     1. _Multiple risk factors have an impact on variances as well as on long-term averages of returns of international assets_
+    >     2. _Only global factors are sources of systematic risk_
+    >     3. _A set of observable economic factors is a valid representation of the factor structure driving asset returns_
+    > - _Objetives and empirical design_
+    >     1. _Identification of volatility drivers_
+    >     2. _Identification of value drivers_
 49. Explain the difference between volatility drivers and value drivers in capital markets.
-    > _a_
+    > - _Volatility driver – explain the variance of asset returns by estimating the beta coefficients; factor with a measurable impact on the return variation of an asset_
+    > - _Value driver – explain the cross-sectional differences (variation) of asset returns (priced factor) by estimating the lambda coefficients_
 50. Explain the two hypothesis of the Wald test procedure discussed in the lecture to identify factors with a
 systematic influence on asset returns and potentially also the cross-section of expected returns.
-    > _a_
+    > - _Hypothesis 1: "The factor betas are equal to zero for all the markets"_
+    > - _Hypothesis 2: "The factor betas are jointly equal across the markets"_
 
 ## Problems and questions 51-53 [xx min]
 51. A factor model including four uncorrelated global factors is applied to analyze the systematic risk of
