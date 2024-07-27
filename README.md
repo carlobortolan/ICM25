@@ -128,31 +128,57 @@ real terms into a certain currency?
     > - _Critical assumption: Inflation rate changes do not systematically affect the cross-section of asset returns (aka assumes zero correlation between inflation and asset returns)_
     > - _Practicability: If the covariance between inflation rate changes and asset returns is small, formula can be used as an approximation_
 
-## Problems and questions 31-40 [xx min]
+## Problems and questions 31-40 [20 min]
 31. Investors continuously face exchange risk due to unforeseen deviations from PPP. Explain the
 implications for investors in different countries and for portfolio choice in the setting of IAPM’s.
-    > _a_
+    > - _Investors in different countries_
+    >     - _are heterogenous regarding consumption and investment opportunities_
+    >     - _evaluate real returns from the same internationally traded asset differently_
+    >     - _face different settings for portfolio optimization_
+    >     - _evaluate the cross-section of internationally traded assets differently_ 
 32. What are the investment opportunities in the international asset pricing model of Solnik (1974)?
-    > _a_
+    > - _Domestic risk-free bond_
+    > - _Domestic common stocks_
+    > - _Foreign risk-free bonds_
+    > - _Foreign common stocks_
 33. Describe the portfolio components in the IAPM of Solnik (1974).
-    > _a_
+    > 1. _World market portfolio hedged against exchange rate risk (representing market risk)_
+    > 2. _Portfolio of risk-free bonds of all countries (currency risk hedge fund)_
+    > 3. _Risk-free bond of the home country_
 34. What is the technical concept behind the world market portfolio hedged against exchange risk in the
 IAPM of Solnik (1974)?
-    > _a_
+    > _Based on exchange rate expectations, international stock positions are hedged by going short in local risk-free bonds (zero-investment portfolio) eliminating the currency risk_
 35. Explain the “separation idea” in the model of Solnik (1974).
-    > _a_
+    > _Market positions are hedged by going short in the currency position_
 36. Describe the portfolio choice in the IAPM of Adler and Dumas.
-    > _a_
+    > 1. _Universal world market portfolio of risky assets (long risky assets)_
+    > 2. _Individual inflation hedge portfolio: Individual weighting of assets such that the nominal return of the portfolio is most highly correlated with the inflation rate in the residence country of the investor (short assets correlated with interest rate)_
 37. Explain the priced sources of risk in the Adler-Dumas model and the determinants of expected returns in
 equilibrium.
-    > _a_
+    > - _Expected return of an asset depends on its usefulness to hedge PPP risk rather than on its
+world market risk alone_
+    > _In equilibrium, expected returns must be consistent with the assets‘ hedging potential in
+each country as well as the investors‘ willingness to pay for hedging in each country_
 38. Write down the asset pricing restriction of Adler and Dumas and explain its components.
-    > _a_
+    > `E(riDomestic) = rfDomestic + λWM * Cov(riDomestic,rwmDomestic) + SUM(λπj * Cov(riDomestic, πj)`
+    > - _`ri` := Interest Rate_
+    > - _`rf` := Risk-free Rate_
+    > - _`λWM` := Premium for covariance with the world market (MRP)_
+    > - _`πj` := Inflation Rate_
+    > - _`λπj` := Premium for covariance with the jth country's inflation_
 39. Explain the idea of rational asset pricing.
-    > _a_
+    > - _Asset prices react to economic news and a variety of unanticipated events influence asset prices and hence the co-movements of asset prices suggest the existence of common exogenous driving forces_
+    > - _Asset prices depend on their exposures to (latent) state variables which can be modeled empirically using economic variables as proxies_
 40. Explain the approach of Chen, Roll and Ross (1986) to capture systematic forces that influence asset
 returns.
-    > _a_
+    > _Idea: Systematic forces that influence returns are those that change discount factors (`rf`) and expected cash flows (`E(C)`) in the dividend discount model `P=E(C)/rf`_
+    > - a. _Industrial production: Monthly growth rate industrial production (MP), Yearly growth rate in industrial production (YP)_
+    > - b. _Inflation: Unanticipated inflation (UI), Change in expected inflation (DEI)_
+    > - c. _Risk premium: Unanticipated change in the risk premium (Baa and under return minus long-term government bond return) (UPR)_
+    > - d. _Term structure: Unanticipated change in the term structure (long-term government bond return minus Treasury-bill rate) (UTS)_
+    > - e. _Stock market: Return on the value-weighted NYSE index (VWNY), Return on the equally weighted NYSE index (EWNY)_
+    > - f. _Innovation in real per capita consumption_
+    > - g. _Oil price_
 
 ## Problems and questions 41-50 [xx min]
 41. Name three macroeconomic state variables applied in the study of Chen, Roll and Ross (1986).
