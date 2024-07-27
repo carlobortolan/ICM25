@@ -1,7 +1,7 @@
 # ICM
 International Capital Markets and Investment Practice Exercises
 
-## Problems and questions 1-10
+## Problems and questions 1-10 [21 min]
 1. What is the core statement of Fama’s Efficient Market Hypothesis (EMH)?
     > _“A market in which prices always fully reflect available information is called efficient”_
 2. What are the implications of the EMH?
@@ -42,7 +42,7 @@ volatility of a portfolio with 40% invested in S&P500 and 60% invested in Nikkei
     >
     > `= sqrt( .1429²*.4² + .2003²*.6² + 2*.4*.6*.1429*.2003*.56 ) = 0.1594`
 
-## Problems and questions 11-20
+## Problems and questions 11-20 [39 min]
 11. What is roughly the long-term equity risk premium in accordance with the study of Dimson, Marsh and
 Staunton?
     > _Risk and return on capital markets -> 3.8% over the period 1900 to 2010_
@@ -69,8 +69,8 @@ and the implications for investors.
 17. On 1 June 2018 the closing price of an Apple stock is 190.24 USD and 1 EUR costs 1.17 USD; on 1
 June 2020 the closing price of an Apple stock is 321.85 USD and 1 EUR costs 1.11 USD. Calculate the
 stock return over that 2-year period in USD and in EUR.
-    > - _Return in % EUR:_ `(P1[USD] / EUR1[USD]) / (P0[USD] / EUR0[USD]) = ($321.85 / 1.11$/€) / ($190.24 * 1.17$/€) = 1.7833 = 178.33% // EUR[USD] := how much 1 EUR costs in USD`
-    > - _Return in % USD:_ `P1[USD] / P0[USD] = $321.85 / $190.24 = 1.6929 = 169.29%`
+    > - _Return in % EUR:_ `(P1[USD] / EUR1[USD]) / (P0[USD] / EUR0[USD]) - 1 = ($321.85 / 1.11$/€) / ($190.24 * 1.17$/€) - 1 = 0.7833 = 78.33% // EUR[USD] := how much 1 EUR costs in USD`
+    > - _Return in % USD:_ `P1[USD] / P0[USD] = $321.85 / $190.24 - 1 = 0.6929 = 69.29%`
 18. When does CPP hold?
     > _CPP := Commodity price parity holds in absence of trade barriers for homogeneous goods (e.g., gold, precious metals)_
 19. Write down the formula for PPP in relative terms.
@@ -83,39 +83,52 @@ PPP holds.
     > - `r0[EUR/USD] = Foreign / Domestic = 1 / 0.90 = 1.1111`
     > - `r1[EUR/USD] = (Foreign * (1+inflationForeign)) / (Domestic * (1+inflationDomestic)) = (1 * 1.03) / (0.90 * 1.015) = 1.1275`
 
-## Problems and questions 21-30
+## Problems and questions 21-30 [20 min]
 21. What is the implication of PPP for the returns on international assets for investors from different
 countries?
-    > _a_
+    > _Real returns on international assets are identical for investors from different countries denominating returns in different currencies_
 22. Why is PPP only a poor explanation of short-term exchange rate movements?
-    > _a_
+    > - Explains 5-10%
+    > - Takes several years before a PPP deviation is adjusted for in the currency market, because:
+    >     - _Inflation is not consistently defined across countries_
+    >     - _Consumption baskets are different_
+    >     - _Changes in relative prices cause consumption substitution_
+    >     - _Transaction costs, taxes, and restrictions prevent arbitrage in goods markets_
 23. Explain the concept of Economist’s Big Mac Index.
-    > _a_
+    > _Lighthearted guide to whether currencies are at their “correct” level. The local average price of a Big Mac in a country is always compared with the average price in the reference country USA._
 24. In the US the average price of a Big Mac in January 2018 is 5.28 USD. At the same time in China it is
 20.40 Yuan which is equivalent to 3.17 USD at market exchange rates, and in Switzerland it is 6.50
 Swiss francs which is equal to 6.76 USD. Comment on the relative valuation of the three currencies in
 accordance with the Big Mac index.
-    > _a_
+    > - _US:_ `5.28 USD` _ - _reference_
+    > - _China:_ `20.40 Yuan = 3.17 USD` _- undervalued with exchange rate of 6.435 Yuan for one USD, should cost: 33.98 Yuan_
+    > - _Switzerland:_ `6.50 CHF = 6.78 USD` _- overvalued with exchange rate of 0.959 CHF for one USD, should cost: 5.06352 CHF_
 25. The spot exchange rate between two currencies is 0.80. The domestic interest rate is 1.5% and the
 foreign interest rate is 3%. Calculate the forward exchange rate.
-    > _a_
+    > `S0 = 0.80, rD = 0.015, rF = 0.03 >>> F0 = ((1+rD)/(1+rF)) * St = (1.015/1.03) * 0.80 = 0.7883`
 26. Explain the core problem of international asset pricing.
-    > _a_
+    > _“Investors hedge their consumption by their investment portfolio” meaning that investors in different countries have different expected returns for the same internationally
+traded asset_
 27. In a closed economy (domestic setting) efficient portfolio diversification brings all investors on the same
 efficient frontier which is essential for the derivation of the CAPM. Explain why in the international setting
 there exists no unique efficient frontier.
-    > _a_
+    > - _Foreign exchange rates, interest rates and inflation rates between countries_
+    > - _PPP does not hold due to differences across countries concerning composition of national consumption baskets, relative prices of goods and time-evolution of relative prices_
+    > - Investment opportunities differ across countries: Restrictions & Capital controls
 28. On 20 April 2018 the price of an Apple stock is 172.80 USD and the price of one fresh white bread is
 2.52 USD. One year before the stock price was 142.44 USD and the bread price was 2.40 USD.
 Calculate the real return on Apple shares.
-    > _a_
+    > - `Real(APPL) = (172.80/2.52) / (142.44/2.40) - 1 = 0.1554 = 15.54%`
+    > - `Nominal(APPL) = 172.80/142.44 - 1 = 0.2131 = 21.31%`
 29. What additional assumptions have to be made in order to translate the base-line International CAPM in
 real terms into a certain currency?
-    > _a_
+    > - _Existence of a risk-free asset denominated in the country‘s currency, having a zero world market beta_
+    > - _Inflation rate in the country is uncorrelated with nominal returns (inflation risk is not systematic)_
 30. Comment on critical assumptions and the practicability of the base-line ICAPM.
-    > _a_
+    > - _Critical assumption: Inflation rate changes do not systematically affect the cross-section of asset returns (aka assumes zero correlation between inflation and asset returns)_
+    > - _Practicability: If the covariance between inflation rate changes and asset returns is small, formula can be used as an approximation_
 
-## Problems and questions 31-40
+## Problems and questions 31-40 [xx min]
 31. Investors continuously face exchange risk due to unforeseen deviations from PPP. Explain the
 implications for investors in different countries and for portfolio choice in the setting of IAPM’s.
     > _a_
@@ -141,7 +154,7 @@ equilibrium.
 returns.
     > _a_
 
-## Problems and questions 41-50
+## Problems and questions 41-50 [xx min]
 41. Name three macroeconomic state variables applied in the study of Chen, Roll and Ross (1986).
     > _a_
 42. Explain the idea of arbitrage pricing in a large capital market.
@@ -165,7 +178,7 @@ approach.
 systematic influence on asset returns and potentially also the cross-section of expected returns.
     > _a_
 
-## Problems and questions 51-53
+## Problems and questions 51-53 [xx min]
 51. A factor model including four uncorrelated global factors is applied to analyze the systematic risk of
 selected European stock markets. The results of the analysis are documented in the following table (one
 value is missing).
@@ -186,7 +199,7 @@ explained by the model?
 factor 4. Calculate the missing value.
     > _a_
 
-## Problems and questions 54-60
+## Problems and questions 54-60 [xx min]
 54. With reference to the table in question 51: Exposure to the four global risk factors is compensated in
 long-term returns. In a cross-sectional analysis the following risk premiums are estimated: 1.5% for
 factor 1, -2.5% for factor 2, 1% for factor 3, and 4% for factor 4. Calculate the expected return for the
@@ -208,7 +221,7 @@ message of the study of Fama and French (1989).
 60. Write down the regression equation of an instrumental forecasting model and explain its components.
     > _a_
 
-## Problems and questions 61-70
+## Problems and questions 61-70 [xx min]
 61. The dividend discount model is often the starting point for the search of instrumental variables in a
 forecasting model. Explain why.
     > _a_
@@ -235,7 +248,7 @@ of Markowitz (1952). Draw a graph if you like.
 70. Explain the difference between strategic and tactical asset allocation.
     > _a_
 
-## Problems and questions 71-80
+## Problems and questions 71-80 [xx min]
 
 71. Describe the 4 quadrants of the framework of Brinson, Hood and Beebower to analyze the determinants
 of portfolio performance.
@@ -267,7 +280,7 @@ What is the intrinsic value of the stock if a discount factor of 8% is applied?
 market price?
     > _a_
 
-## Problems and questions 81-90
+## Problems and questions 81-90 [xx min]
 81. With reference to question 79: How does the intrinsic value of the stock change if the expected dividend
 growth weakens to 4%?
     > _a_
@@ -291,7 +304,7 @@ assume that the next dividend will be EUR 4.50, discounted at 8%.
 90. Name the two theoretical anchor points of multi-factor models.
     > _a_
 
-## Problems and questions 91-99
+## Problems and questions 91-99 [xx min]
 
 91. How are equity returns explained in the Fama-French 3-factor model?
     > _a_
