@@ -16,7 +16,7 @@
   
     = sqrt( σ(A)² * a² + σ(B)² * b² + 2*a*b*σ(A)*σ(B)*Corr(A,B) )
 
-## Stock return over a person given an exchange rate
+## Stock return over a period given an exchange rate
     Return in % EUR: (P1[USD] / EUR1[USD]) / (P0[USD] / EUR0[USD]) - 1 // EUR[USD] := how much 1 EUR costs in USD //= real return
 
     Return in % USD: P1[USD] / P0[USD] //= nominal return
