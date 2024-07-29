@@ -439,3 +439,18 @@ strategies based on?
     >     - _Full replication: ETC accurately replicates the reference index via the basket of securities held in custody by the ETF provider_
     >     - _Sampling: Only a selection (a sample) of the securities included in the benchmark index will by included in the portfolio of the ETF provider_ 
     > - _Synthetic replication: Based on swaps (relevant index is replicated via derivatives; basket of securities is not phisically deposited with the ETF provider -> Counterparty risk exist)_
+
+## One-time exercise performance (Test run)
+1. An investor finds that he cannot achieve systematic outperformance of the market index by trading on company information in the newspapers. So, what seems to be the minimum level of market efficiency?
+    > _Semi-strong form efficiency_
+2. What is the idea behind "adaptive markets" as introduced by Andrew Lo?
+    > _Financial market dynamics are driven by our interactions as we behave, learn, and adapt to each other, and to the social, cultural, political, economic, and natural environments in which we live._
+3. The yearly volatility of the US stock market index S&P500 over the period from January 1993 to February 2018 is 14.29 % (a result from Case 1). Assuming that 22 trading days are set for each month, the daily volatility of the DAX is closest to the value of …
+    > _0.8794 %_
+4. Explain the typical relationship between the volatilities on two stock markets and the correlation between the markets. If volatility decreases in either or both markets, the correlation between the markets …
+    > _Decreases_
+5. The formula for interest rate parity is:
+    > `Ft / St = (1 + rd_t,t+1) / (1 + rf_t,t+1)`
+6. A factor model including four uncorrelated global factors is applied to analyze the systematic risk of selected European stock markets. The results of the analysis are documented in the following table:![Instructions_ICM_ss20mock_06](https://github.com/user-attachments/assets/6f10b933-60b6-471c-ade1-6e12349e31fc)
+   What portion of the variance of the French stock market is captured by factor 1? The result is closest to the value of …
+    > _4.43 %_
