@@ -33,7 +33,7 @@ International Capital Markets and Investment Practice Exercises
 February 2018 is 21.12% (see Case 1). Calculate the monthly volatility and the daily volatility of that
 index.
     > - `Yearly volatility = monthly volatility * sqrt(12 months) = 0.2112`
-    > - `Monthly volatility = daily volatility * sqrt(22 days)_ = 0.0610`
+    > - `Monthly volatility = daily volatility * sqrt(22 days) = 0.0610`
     > - `Daily volatility = 0.0130`
 10. The volatility of the S&P500 (US stock market) is 14.29% and the volatility of the Nikkei (Japanese stock
 market) is 20.03% (see Case 1). The correlation between the two stock markets is 0.56. Calculate the
@@ -100,7 +100,7 @@ countries?
 20.40 Yuan which is equivalent to 3.17 USD at market exchange rates, and in Switzerland it is 6.50
 Swiss francs which is equal to 6.76 USD. Comment on the relative valuation of the three currencies in
 accordance with the Big Mac index.
-    > - _US:_ `5.28 USD` _ - _reference_
+    > - _US:_ `5.28 USD` - _reference_
     > - _China:_ `20.40 Yuan = 3.17 USD` _- undervalued with exchange rate of 6.435 Yuan for one USD, should cost: 33.98 Yuan_
     > - _Switzerland:_ `6.50 CHF = 6.78 USD` _- overvalued with exchange rate of 0.959 CHF for one USD, should cost: 5.06352 CHF_
 25. The spot exchange rate between two currencies is 0.80. The domestic interest rate is 1.5% and the
