@@ -49,14 +49,21 @@ fig = px.bar(results_melted, x='Index', y='Value', color='Metric', barmode='grou
 '''
 3. Calculate yearly returns for the stock markets
 '''
+returns['Year'] = returns['Date'].dt.year
+grouped_returns = returns.drop(columns=['Date']).groupby('Year').sum().reset_index()
 
-# TODO
+fig = px.line(grouped_returns, x='Year', y=grouped_returns.columns[1:], title='Yearly returns for the stock markets')
+# fig.show()
 
 '''
 4. Calculate the correlations between the markets over the period 1993-2017
 '''
 
-# TODO
+correlation_matrix = returns.drop(columns=['Date', 'Year']).corr()
+correlation_matrix.loc['Mean'] = correlation_matrix.mean(axis=1)
+
+fig = px.imshow(correlation_matrix, text_auto=True, title='Correlation Matrix (full)', color_continuous_scale='RdBu_r')
+# fig.show()
 
 '''
 5. Calculate the correlations for five sub-periods
@@ -67,8 +74,13 @@ fig = px.bar(results_melted, x='Index', y='Value', color='Metric', barmode='grou
 – 2013-2017
 '''
 
-# TODO
-
+for year in range(1993, 2018, 5):
+    returns_sub = returns[returns['Year'].between(year, year+4)]
+    correlation_matrix = returns_sub.drop(columns=['Date', 'Year']).corr()
+    correlation_matrix.loc['Mean'] = correlation_matrix.mean(axis=1)
+    
+    fig = px.imshow(correlation_matrix, text_auto=True, title=f'Correlation Matrix ({year}-{year + 4})', color_continuous_scale='RdBu_r')
+    # fig.show()
 '''
 6. Analyze the correlation regimes
 '''
