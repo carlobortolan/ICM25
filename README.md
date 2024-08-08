@@ -2,9 +2,8 @@
 
 Analysis of the long-term evolution of international equity markets (average returns, volatilities, long-term correlations) and economic risks of European stock markets.
 
-![note]
-This project has been inspired by the _International Capital Markets
-and Investment Practice_ lecture held during S2024 by _Prof. Dr. Peter Oertmann_.
+> [!Note] 
+> This project has been inspired by the _International Capital Markets and Investment Practice_ lecture held during S2024 by _Prof. Dr. Peter Oertmann_.
 
 ## Case 1: Analyzing 25 years of stock market returns
 
