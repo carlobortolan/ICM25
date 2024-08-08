@@ -66,7 +66,7 @@ fig = px.imshow(correlation_matrix, text_auto=True, title='Correlation Matrix (f
 # fig.show()
 
 '''
-5. Calculate the correlations for five sub-periods
+5. Calculate the correlations for five sub-periods and analyze the correlation regimes
 – 1993-1997
 – 1998-2002
 – 2003-2007
@@ -74,15 +74,16 @@ fig = px.imshow(correlation_matrix, text_auto=True, title='Correlation Matrix (f
 – 2013-2017
 '''
 
+
+correlation_matrix_avg = pd.DataFrame()
+
 for year in range(1993, 2018, 5):
     returns_sub = returns[returns['Year'].between(year, year+4)]
     correlation_matrix = returns_sub.drop(columns=['Date', 'Year']).corr()
-    correlation_matrix.loc['Mean'] = correlation_matrix.mean(axis=1)
-    
+    correlation_matrix_avg[f'{year}-{year + 4}'] = correlation_matrix.mean()
+
     fig = px.imshow(correlation_matrix, text_auto=True, title=f'Correlation Matrix ({year}-{year + 4})', color_continuous_scale='RdBu_r')
     # fig.show()
-'''
-6. Analyze the correlation regimes
-'''
 
-# TODO
+fig = px.imshow(correlation_matrix_avg, text_auto=True, title='Average correlation over sub-periods', color_continuous_scale='RdBu_r')
+# fig.show()
