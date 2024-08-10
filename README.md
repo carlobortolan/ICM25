@@ -2,9 +2,6 @@
 
 Analysis of the long-term evolution of international equity markets (average returns, volatilities, long-term correlations) and economic risks of European stock markets.
 
-> [!Note] 
-> This project has been inspired by the _International Capital Markets and Investment Practice_ lecture held during S2024 by _Prof. Dr. Peter Oertmann_.
-
 ## Case 1: Analyzing 25 years of stock market returns
 
 Analysis of the **longterm evolution of international equity markets**, i.e.
@@ -57,6 +54,9 @@ Prob(Omnibus):                  0.094   Jarque-Bera (JB):                4.503
 ...
 ==============================================================================
 ```
+
+> [!Note] 
+> This project has been inspired by the _International Capital Markets and Investment Practice_ lecture held during S2024 by _Prof. Dr. Peter Oertmann_.
 
 ---
 
