@@ -1,10 +1,7 @@
 import math
-import statistics
 import numpy as np
-import scipy.stats as stats
 import pandas as pd
 import plotly.express as px
-
 
 # Metadata
 data = pd.read_csv('data/Case1.csv')
@@ -15,6 +12,7 @@ data['Date'] = pd.to_datetime(data['Date'])
 '''
 1. Display the long-term performance of the equity markets 
 '''
+
 data_melted = data.melt(id_vars=['Date'], value_vars=data.columns[1:], var_name='Index', value_name='Value')
 fig = px.line(data_melted, x='Date', y='Value', color='Index', title='Long-term performance of the equity markets', log_y=True)
 # fig.show()
@@ -49,6 +47,7 @@ fig = px.bar(results_melted, x='Index', y='Value', color='Metric', barmode='grou
 '''
 3. Calculate yearly returns for the stock markets
 '''
+
 returns['Year'] = returns['Date'].dt.year
 grouped_returns = returns.drop(columns=['Date']).groupby('Year').sum().reset_index()
 
@@ -73,7 +72,6 @@ fig = px.imshow(correlation_matrix, text_auto=True, title='Correlation Matrix (f
 – 2008-2012
 – 2013-2017
 '''
-
 
 correlation_matrix_avg = pd.DataFrame()
 
