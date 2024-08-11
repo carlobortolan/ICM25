@@ -58,6 +58,34 @@ Prob(Omnibus):                  0.094   Jarque-Bera (JB):                4.503
 > [!Note] 
 > This project has been inspired by the _International Capital Markets and Investment Practice_ lecture held during S2024 by _Prof. Dr. Peter Oertmann_.
 
+## Usage
+
+1. Activate the virtual environment
+```sh
+source env/bin/activate
+```
+
+2. Run the notebook
+```sh
+jupyter notebook
+```
+
+## Build
+
+Run the following command to build the notebook. The build files can be found in the `build` folder:
+
+```sh
+make
+```
+
+This will execute the Jupyter notebook and convert it to an HTML file, which will be moved to the `build` directory as `index.html`.
+
+To clean up the build directory, run:
+
+```sh
+make clean
+```
+
 ---
 
 © Carlo Bortolan
