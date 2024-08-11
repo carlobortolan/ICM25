@@ -6,6 +6,7 @@ convert:
 move:
 	mkdir -p build
 	mv notebook.html build/index.html
+	cp -r data build/data
 
 # Clean up the build directory
 clean:
