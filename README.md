@@ -16,7 +16,9 @@ Data set ([Case1.csv](./data/Case1.csv)) includes 16 stock market indices in loc
 
 ![case1a](https://github.com/user-attachments/assets/f3b92af7-c614-4e5e-aac3-c33dab097881)
 ![case1b](https://github.com/user-attachments/assets/3a270736-9a91-484e-9783-c483aaa93653)
-![case1c](https://github.com/user-attachments/assets/453a3405-afac-41ae-82f0-fc5d26ce633c)
+<!-- ![case1c](https://github.com/user-attachments/assets/453a3405-afac-41ae-82f0-fc5d26ce633c) -->
+![case1c](https://github.com/user-attachments/assets/c53ada3e-8c31-4524-837f-85f502d42e83)
+
 
 
 ## Case 2: Rational asset pricing and multifactor models
