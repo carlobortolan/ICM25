@@ -75,13 +75,14 @@ fig = px.imshow(correlation_matrix, text_auto=True, title='Correlation Matrix (f
 
 correlation_matrix_avg = pd.DataFrame()
 
-for year in range(1993, 2018, 5):
-    returns_sub = returns[returns['Year'].between(year, year+4)]
+time_delta = 1
+for year in range(1993, 2018, time_delta):
+    returns_sub = returns[returns['Year'].between(year, year+time_delta)]
     correlation_matrix = returns_sub.drop(columns=['Date', 'Year']).corr()
-    correlation_matrix_avg[f'{year}-{year + 4}'] = correlation_matrix.mean()
+    correlation_matrix_avg[f'{year}-{year + time_delta}'] = correlation_matrix.mean()
 
-    fig = px.imshow(correlation_matrix, text_auto=True, title=f'Correlation Matrix ({year}-{year + 4})', color_continuous_scale='RdBu_r')
-    # fig.show()
+    fig = px.imshow(correlation_matrix, text_auto=True, title=f'Correlation Matrix ({year}-{year + time_delta})', color_continuous_scale='RdBu_r', zmin=0, zmax=1)
+    fig.show()
 
-fig = px.imshow(correlation_matrix_avg, text_auto=True, title='Average correlation over sub-periods', color_continuous_scale='RdBu_r')
+fig = px.imshow(correlation_matrix_avg, text_auto=True, title='Average correlation over sub-periods', color_continuous_scale='RdBu_r', zmin=0, zmax=1)
 # fig.show()
